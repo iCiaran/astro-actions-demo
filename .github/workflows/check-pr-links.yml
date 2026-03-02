@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: Build site
-        uses: withastro/action@15aa0a5a1e067940253e3b259413ab2ae882a740 # v5.2.0
+        uses: iciaran/astro-action@15aa0a5a1e067940253e3b259413ab2ae882a740 # v5.2.0
 
         with:
           path: "astro" # TODO: change when Astro site is moved to root
