@@ -18,6 +18,5 @@ jobs:
         uses: iciaran/astro-action@dcd26d4a1ed099c0f679b4540496578da996fa78
 
         with:
-          path: "astro" # TODO: change when Astro site is moved to root
           package-manager: npm@latest
           node-version: 24.13
